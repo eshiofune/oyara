@@ -7,16 +7,17 @@ Simple web API for debits and credits on bank accounts
 2. Install [Django Rest Framework](https://pypi.org/project/djangorestframework/)
 3. Run
 ```
+cd oyara_api
 python manage.py runserver
 ```
 4. Visit http://localhost:8000 in your browser
 
 ### Setup database
 
-Run the following commands
+Run
 
 ```
-python manage.py makemigrations
+cd oyara_api
 python manage.py migrate
 ```
 
@@ -25,5 +26,6 @@ python manage.py migrate
 Run
 
 ```
+cd oyara_api
 python manage.py loaddata db_data.txt
 ```

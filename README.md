@@ -1,5 +1,5 @@
 # oyara
-Simple web API for debits and credits
+Simple web API for debits and credits on bank accounts
 
 ### Setup server
 
